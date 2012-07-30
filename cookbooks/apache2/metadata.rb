@@ -182,7 +182,7 @@ attribute "apache/worker/maxclients",
 attribute "apache/worker/minsparethreads",
   :display_name => "Apache Worker MPM MinSpareThreads",
   :description => "Minimum number of spare worker threads",
-  :default => "64"
+  :default => "74"
 
 attribute "apache/worker/maxsparethreads",
   :display_name => "Apache Worker MPM MaxSpareThreads",
