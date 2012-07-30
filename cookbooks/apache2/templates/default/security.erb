@@ -10,7 +10,11 @@
 #	Order Deny,Allow
 #	Deny from all
 #</Directory>
-
+<Directory />
+  AllowOverride None
+	Order Deny,Allow
+	Allow from all
+</Directory>
 
 # Changing the following options will not really affect the security of the
 # server, but might make attacks slightly more difficult in some cases.
